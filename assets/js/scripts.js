@@ -481,7 +481,6 @@ $(function () {
         size: "cover"
     });
 
-
     /* ========== paroller ========== */
 
     $('.my-paroller').paroller();
