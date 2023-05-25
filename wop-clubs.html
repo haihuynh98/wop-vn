@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords"
+        content="wop, wop vietnam, wop việt nam, entertainment for youth, bida, billiards, billiards club, bida club">
+    <meta name="description" content="WOP - ENTERTAINMENT FOR YOUTH">
+
+    <!-- Title  -->
+    <title>WOP - ENTERTAINMENT FOR YOUTH</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/phone-button.css">
+
+    <style>
+        .popup-container {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999;
+        }
+
+        .popup {
+            background-color: #ff5c5c;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            display: none;
+        }
+
+        .popup.show {
+            display: block;
+        }
+
+        .popup p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .popup a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .popup a:hover {
+            text-decoration: underline;
+        }
+
+        .popup-button {
+            background-color: #ff5c5c;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+        }
+
+        .popup-button:focus,
+        .popup-button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body class="main-bg">
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <div class="cursor"></div>
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar navbar-expand-lg static main-bg">
+        <div class="container">
+
+            <!-- Logo -->
+            <!-- <a class="logo icon-img-100" href="#">
+                    <img src="assets/wop/logo-wop.png" alt="logo">
+                </a> -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><span class="rolling-text">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-about.html"><span class="rolling-text">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wop-clubs.html"><span class="rolling-text">WOP Clubs</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="logo icon-img-120" href="/">
+                            <img src="assets/wop/logo-wop.png" alt="logo">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/coming-soon.html"><span class="rolling-text">JOY BILLIARDS</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/wop-shop.html"><span class="rolling-text">WOP Shop</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-contact.html"><span class="rolling-text">Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ==================== End Navbar ==================== -->
+
+
+    <main class="main-bg">
+
+
+        <!-- ==================== Start Slider ==================== -->
+
+        <header class="proj-header2 bg-img valign" data-background="assets/wop/FB_IMG_1683092883173_crop.jpg"
+            data-overlay-dark="5">
+            <div class="container mt-80">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="caption text-center">
+                            <h1>World Of Pool Billiards (WOP)</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ==================== End Slider ==================== -->
+
+
+
+        <!-- ==================== Start section ==================== -->
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="cont">
+                            <h3 class="mb-15">About the clubs.</h3>
+                            <p>WOP provides a comfortable and welcoming environment, along with professional services
+                                and customer care support</p>
+
+                            <div class="info d-flex mt-50">
+                                <div class="item mr-50">
+                                    <h6 class="fz-16">Number of pool tables</h6>
+                                    <span class="sub-title ls1">31 pool tables</span>
+                                </div>
+                                <div class="item mr-50">
+                                    <h6 class="fz-16">VIP rooms</h6>
+                                    <span class="sub-title ls1">2 rooms</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="back-image bg-img mt-100" style="background-position: center"
+                data-background="assets/wop/340394832_798181651166448_57677100319126517_n.jpg"></div>
+        </section>
+
+        <!-- ==================== End About ==================== -->
+
+
+
+        <!-- ==================== Start section ==================== -->
+
+        <div class="pt-30 pb-30">
+            <div class="container-fluid rest">
+                <div class="swiper4" data-carousel="swiper" data-items="4" data-loop="true" data-space="80"
+                    data-center="true" data-speed="1000">
+                    <div id="content-carousel-container-unq-img" class="swiper-container" data-swiper="container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="assets/wop/330554151_2150316231835752_3643977023176630606_n.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="assets/wop/334757555_225462236759719_8525867725515137385_n.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="assets/wop/335242953_129862853361795_2740178398494464337_n.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="assets/wop/340180180_2474436749376609_8283972912845730987_n.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="assets/wop/336857997_161917186732470_3916121905950158419_n.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="assets/wop/337664731_173646425478682_987521717675978768_n.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-100">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center">
+                            <h5 class="fw-300"> <strong>World Of Pool Billiards (WOP)</strong> is a club dedicated to
+                                all pool billiards
+                                enthusiasts. It is conveniently located in the heart of District 10, between Saigon's
+                                bustling city center, and boasts a large-scale facility with 31 pool tables and 2 VIP
+                                rooms, living up to its name, "The World of Pool Billiards." Operating hours are from
+                                8:30 AM to 5:00 AM daily.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== End section ==================== -->
+
+        <!-- ==================== Start section ==================== -->
+
+        <section class="pb-80">
+            <div class="container">
+                <div class="row mt-50">
+                    <div class="col-lg-4">
+                        <div class="img md-mb50">
+                            <img src="assets/wop/339258783_944272183434777_6287596657101819173_n.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 offset-lg-1 valign">
+                        <div class="text">
+                            <h5 class="fw-200">Furthermore, with our mission to develop and elevate the sport of pool in
+                                Ho Chi Minh City and Vietnam as a whole, we go beyond providing a mere playing field. We
+                                also offer training and learning opportunities through courses in collaboration with the
+                                Ho Chi Minh City Billiards & Snooker Association.</h5>
+                            <ul class="rest list-arrow mt-50">
+                                <li>
+                                    <span class="icon">
+                                        <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
+                                                fill="#1d1d1d"></path>
+                                        </svg>
+                                    </span>
+                                    <h6 class="inline fz-18">Professional services and customer care support.</h6>
+                                </li>
+                                <li class="mt-10">
+                                    <span class="icon">
+                                        <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
+                                                fill="#1d1d1d"></path>
+                                        </svg>
+                                    </span>
+                                    <h6 class="inline fz-18">The staff members are friendly</h6>
+                                </li>
+                                <li class="mt-10">
+                                    <span class="icon">
+                                        <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
+                                                fill="#1d1d1d"></path>
+                                        </svg>
+                                    </span>
+                                    <h6 class="inline fz-18">There are regular discount programs</h6>
+                                </li>
+                                <li class="mt-10">
+                                    <span class="icon">
+                                        <svg width="100%" height="100%" viewBox="0 0 9 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.71108 3.78684L8.22361 4.29813L7.71263 4.80992L4.64672 7.87832L4.13433 7.36688L6.87531 4.62335H1.11181H0.750039H0.388177L0.382812 0.718232H1.10645L1.11082 3.90005H6.80113L4.12591 1.22972L4.63689 0.718262L7.71108 3.78684Z"
+                                                fill="#1d1d1d"></path>
+                                        </svg>
+                                    </span>
+                                    <h6 class="inline fz-18">Create a professional World Of Pool Billiards with global
+                                        standards</h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== End section ==================== -->
+
+
+    </main>
+
+
+    <!-- ==================== Start Footer ==================== -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="container pb-80 pt-80 ontop">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="colum md-mb50">
+                            <div class="text">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d582.6569895255674!2d106.66297541234898!3d10.762711729199118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f0ea2b56043%3A0xe462540cd2cb2c59!2sCLB%20Bida%20L%E1%BB%97%20World%20Of%20Pool%20Qu%E1%BA%ADn%2010!5e0!3m2!1svi!2s!4v1684768294459!5m2!1svi!2s"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="colum md-mb50">
+                            <div class="tit mb-20">
+                                <h6>Address</h6>
+                            </div>
+                            <div class="text">
+                                <p class="mb-10">18 Nguyen Lam Street, Ward 6, District 10, Ho Chi Minh City, Vietnam
+                                </p>
+                            </div>
+                            <div class="text">
+                                <p class="mb-10">
+                                    <a href="mailto:info@wop.vn">info@wop.vn</a>
+                                </p>
+                                <h5>
+                                    <a href="tel:+84707977779">+84 707 977 779</a>
+                                </h5>
+                            </div>
+                            <ul class="rest social-text d-flex">
+                                <li class="mr-30">
+                                    <a href="https://www.facebook.com/profile.php?id=100085218084193"
+                                        class="hover-this"><span class="hover-anim fz-30"><i
+                                                class="fab fa-facebook"></i></span></a>
+                                </li>
+                                <li class="mr-30">
+                                    <a href="#0" class="hover-this"><span class="hover-anim fz-30"><i
+                                                class="fab fa-youtube"></i></span></a>
+                                </li>
+                                <li class="mr-30">
+                                    <a href="#0" class="hover-this"><span class="hover-anim fz-30"><i
+                                                class="fab fa-tiktok"></i></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer pt-30 pb-30 bord-thin-top ontop">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="logo icon-img-120">
+                                <a href="/">
+                                    <img src="assets/wop/logo-wop.png" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="copyright d-flex">
+                                <div class="ml-auto">
+                                    <p class="fz-13">© 2023 WOP.VN, Powered by Tigergentlemen</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>_
+
+    <!-- ==================== End Footer ==================== -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.4.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="assets/js/plugins.js"></script>
+
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+
+    <!-- custom scripts -->
+    <script src="assets/js/scripts.js"></script>
+
+
+    <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+            <div class="hotline-phone-ring-circle"></div>
+            <div class="hotline-phone-ring-circle-fill"></div>
+            <div class="hotline-phone-ring-img-circle">
+                <a href="tel:0707977779" class="pps-btn-img">
+                    <img src="assets/imgs/icon-call-nh.png" alt="Calling to we"width="50">
+                </a>
+            </div>
+        </div>
+        <div class="hotline-bar">
+            <a href="tel:0707977779">
+                <span class="text-hotline d-block">0707 977 779</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
