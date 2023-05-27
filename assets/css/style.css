@@ -5652,6 +5652,7 @@ footer .bg-pattern {
 .serv-marq {
   position: relative;
   z-index: 3;
+  overflow-x: hidden;
 }
 
 .serv-marq .ontop {
