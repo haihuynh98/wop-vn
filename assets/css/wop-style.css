@@ -12,4 +12,9 @@
     .hide-mobile {
         display: none;
     }
+    .cursor {
+        display: none;
+    }
 }
+
+

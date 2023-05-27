@@ -5678,11 +5678,16 @@ footer .bg-pattern {
 }
 
 .back-image {
-  height: 75vh;
   min-height: 400px;
   overflow: hidden;
 }
 
+@media screen and (max-width: 991px) {
+  .back-image {
+    min-height: 200px;
+    overflow: hidden;
+  }
+}
 .back-image.states {
   min-height: auto;
 }
