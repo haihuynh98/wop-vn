@@ -5678,6 +5678,7 @@ footer .bg-pattern {
 }
 
 .back-image {
+  width: 100%;
   min-height: 400px;
   overflow: hidden;
 }
@@ -5688,6 +5689,7 @@ footer .bg-pattern {
     overflow: hidden;
   }
 }
+
 .back-image.states {
   min-height: auto;
 }
